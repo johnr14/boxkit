@@ -14,7 +14,7 @@ on:
       - '**/extra-packages.alpine'
 env:
     IMAGE_NAME: fedora-boxkit-base
-    IMAGE_TAGS: latest
+    IMAGE_TAGS: rawhide 
     IMAGE_REGISTRY: ghcr.io/${{ github.repository_owner }}
 
 jobs:
