@@ -5,11 +5,11 @@ LABEL com.github.containers.toolbox="true" \
       summary="A cloud-native terminal experience" \
       maintainer="jorge.castro@gmail.com"
 
-COPY extra-packages /
+COPY extra-packages.alpine /
 RUN apk update && \
     apk upgrade && \
     grep -v '^#' /extra-packages.alpine | xargs apk add
-RUN rm /extra-packages
+RUN rm /extra-packages.alpine
 
 RUN   ln -fs /bin/sh /usr/bin/sh && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/docker && \
