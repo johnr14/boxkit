@@ -24,6 +24,12 @@ FROM quay.io/fedora/fedora-toolbox:40 AS fedora-boxkit-base
 #ENV NVIDIA_VISIBLE_DEVICES all
 #ENV NVIDIA_DRIVER_CAPABILITIES all
 
+ARG IMAGE_NAME="${IMAGE_NAME:-fedora-boxkit-base}"
+ARG IMAGE_FLAVOR="${IMAGE_FLAVOR:-main}"
+ARG IMAGE_BRANCH="${IMAGE_BRANCH:-main}"
+ARG BASE_IMAGE_NAME="${BASE_IMAGE_NAME:-fedora-toolbox}"
+ARG FEDORA_MAJOR_VERSION="${FEDORA_MAJOR_VERSION:-40}"
+
 LABEL com.github.containers.toolbox="true" \
       usage="This image is meant to be used with the toolbox or distrobox commands" \
       summary="Dependencies for running DaVinci Resolve on image-based Linux operating systems" \
