@@ -1,4 +1,4 @@
-FROM quay.io/toolbx-images/alpine-toolbox:edge
+FROM quay.io/toolbx-images/alpine-toolbox:edge AS alpine-boxkit-base
 
 LABEL com.github.containers.toolbox="true" \
       usage="This image is meant to be used with the toolbox or distrobox command" \
@@ -8,7 +8,7 @@ LABEL com.github.containers.toolbox="true" \
 COPY extra-packages /
 RUN apk update && \
     apk upgrade && \
-    grep -v '^#' /extra-packages | xargs apk add
+    grep -v '^#' /extra-packages.alpine | xargs apk add
 RUN rm /extra-packages
 
 RUN   ln -fs /bin/sh /usr/bin/sh && \
@@ -18,3 +18,5 @@ RUN   ln -fs /bin/sh /usr/bin/sh && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/rpm-ostree && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/transactional-update
      
+
+
