@@ -1,4 +1,4 @@
-name: build-boxkit
+name: build-boxkit-fedora-base
 on:
   pull_request:
     branches:
