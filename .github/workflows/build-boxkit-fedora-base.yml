@@ -7,7 +7,7 @@ on:
     - cron: '0 0 * * TUE'
   push:
     branches:
-      - main
+      - rawhide 
     paths-ignore:
       - '**/README.md'
       - '**/extra-packages.arch'
