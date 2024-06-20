@@ -1,4 +1,4 @@
-FROM quay.io/fedora/fedora-toolbox:40 AS fedora-boxkit-base
+FROM quay.io/fedora/fedora-toolbox:rawhide AS fedora-boxkit-base
 # Support Nvidia Container Runtime (https://developer.nvidia.com/nvidia-container-runtime)
 #ENV NVIDIA_VISIBLE_DEVICES all
 #ENV NVIDIA_DRIVER_CAPABILITIES all
