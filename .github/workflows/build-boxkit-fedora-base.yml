@@ -2,7 +2,7 @@ name: build-boxkit-fedora-base
 on:
   pull_request:
     branches:
-      - main
+      - rawhide
   schedule:
     - cron: '0 0 * * TUE'
   push:
