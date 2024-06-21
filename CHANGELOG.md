@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.0.0 (2024-06-21)
+
+
+### Features
+
+* **extra-packages.arch:** add distrobox wanted pkg ([ff6197d](https://github.com/johnr14/boxkit/commit/ff6197dadc94365b9493638fe6d2dd110266ec4c))
+* **fedora:** add all packages asked by distrobox ([5b2b6f3](https://github.com/johnr14/boxkit/commit/5b2b6f33830413062cc177d6690bc30f660222a6))
+* **fedora:** build with extra-packages.fedora ([167e23c](https://github.com/johnr14/boxkit/commit/167e23c34882c613aebb5647df58986f0c5c7149))
+
+
+### Bug Fixes
+
+* added empty file ([3c30a23](https://github.com/johnr14/boxkit/commit/3c30a23daeb1f371079b707067a2f72889a417f3))
+* **extra-packages.fedora:** add distrobox wanted pkg ([9852ba9](https://github.com/johnr14/boxkit/commit/9852ba9b218b286c62abcdfeac3cdaba7191b568))
+* typo .alpine ([808acc5](https://github.com/johnr14/boxkit/commit/808acc57d9292b52d59447f41b2056444fca014c))
+
 ## [1.1.0](https://github.com/ublue-os/boxkit/compare/v1.0.0...v1.1.0) (2023-10-09)
 
 
