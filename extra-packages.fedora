@@ -32,7 +32,6 @@ gitui
 glibc-all-langpacks
 glibc-common
 glibc-locale-source
-gnupg
 gnupg2
 gnupg2-smime
 gopass
