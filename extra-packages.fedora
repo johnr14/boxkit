@@ -1,10 +1,12 @@
 age
 ansible
 aria2
+atool
 bash-completion
 bat
 bc
 bind-utils
+borgbackup
 btop
 bzip2
 colordiff
@@ -19,6 +21,7 @@ expect
 eza
 fastfetch
 fd-find
+ffmpegthumbnailer
 findutils
 fish
 fontconfig
@@ -38,6 +41,7 @@ htop
 inxi
 iproute
 iputils
+jhead
 jq
 keyutils
 kitty-terminfo
@@ -49,6 +53,7 @@ man
 man-db
 man-pages
 mc
+mediainfo
 mesa-dri-drivers
 mesa-vulkan-drivers
 mtr
@@ -69,6 +74,7 @@ procs
 psmisc
 pv
 python3-pip
+ranger
 ripgrep
 rng-tools
 rsync
@@ -90,6 +96,8 @@ unzip
 util-linux
 vte-profile
 vulkan
+w3m
+w3m-img
 wget
 which
 whois
